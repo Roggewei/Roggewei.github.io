@@ -1,77 +1,40 @@
-![](_assets/images/documentation/chalk-intro@2x.png)
+This theme is designed by Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/). Visit her website for more themes [http://themes.3rdwavemedia.com/](http://themes.3rdwavemedia.com/)
 
-Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll.
 
-## Overview
+I have made this into a Jekyll Theme.
+**Demo:** [http://webjeda.com/online-cv/](http://webjeda.com/online-cv/)
 
-Features:
-  - Dark and Light theme.
-  - Filter on tags.
-  - customizable pagination.
-  - Beautified link sharing in Facebook and other social media.
-  - Automatic time to read post indicator.
-  - Automatic RSS feed.
-  - About page.
-  - 404 page.
-  - SEO optimized.
-  - PageSpeed optimized.
-  - Cross browser support (supports all modern browsers).
-  - Media embed for videos.
-  - Enlarge images on click (like Medium).
+The default theme would look like this
 
-Integrations
-  - [Google Analytics](https://analytics.google.com/analytics/web/)
-  - [Google Fonts](https://fonts.google.com/)
-  - [Disqus](https://disqus.com/)
-  - [Ionicons](http://ionicons.com/)
-  - Social media links
+![online cv Jekyll theme](/assets/images/online-cv-jekyll-theme.png)
 
-Used tools
-  - [Autoprefixer](https://github.com/postcss/autoprefixer)
-  - [Bower](http://bower.io/)
-  - [Circle CI](https://circleci.com/)
-  - [Html-proofer](https://github.com/gjtorikian/html-proofer)
-  - [Jekyll](http://jekyllrb.com/)
-  - [Jekyll assets](https://github.com/jekyll/jekyll-assets)
-  - [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap)
-  - [HTML5 Boilerplate](https://html5boilerplate.com/) (Influenced by)
-  - [Kickster](http://kickster.nielsenramon.com/)
-  - [Retina.js](http://imulus.github.io/retinajs/)
-  - [STACSS](http://stacss.nielsenramon.com/)
+The theme is responsive
 
-## Usage
+![online cv responsive Jekyll theme](/assets/images/online-cv-responsive-jekyll-theme.png)
 
-### Installation
+There are 6 color schemes available
 
-If you haven't installed Ruby then go ahead and install it with: `brew install Ruby`.
-Next setup your environment:
+![online cv Jekyll theme](/assets/images/online-cv-jekyll-theme-2.png)
 
-    bin/setup
+# Installation: 
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
-### Development
+[Watch my video on instlallation](https://www.youtube.com/embed/T2nx6tj-ZH4)
 
-Run Jekyll:
 
-    bundle exec jekyll serve
+## How to delete old **gh-pages** branch?
+After forking the repository, click on **branches**.
 
-### Deploy to GitHub Pages
+![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch.png)
 
-Run this in the root project folder in your console:
+Delete ``gh-pages`` branch.
+![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch-2.png)
 
-    bin/deploy
+You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
 
-You can find more info on how to use the gh-pages branch and a custom domain [here](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
+![create gh-pages branch](http://blog.webjeda.com/images/create-gh-pages-branch.JPG)
 
-[View this](https://github.com/nielsenramon/kickster#automated-deployment-with-circle-ci) for more info about automated deployment with Circle CI.
+Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted. If not select a branch as source.
 
-## License
 
-MIT License
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/chalk/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Check out for more themes: [**Jekyll Themes**](http://blog.webjeda.com/jekyll-themes)
