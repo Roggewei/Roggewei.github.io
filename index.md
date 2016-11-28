@@ -1,5 +1,5 @@
 ---
-title: Why Blog
+title: 玩家的备忘录
 layout: post
 ---
 
