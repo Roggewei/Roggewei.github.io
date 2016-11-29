@@ -1,8 +1,8 @@
 # Site settings
-title: 闫肃的博客
-email: suyan0830@gmail.com
+title: 佳斌的博客
+email: weijaibin@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
-  闫肃的博客
+  佳斌的博客
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: http://yansu.org # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
@@ -21,7 +21,7 @@ instagram: suyan0830
 linkedin: suyan0830
 
 # avatar and Favicon
-avatar: http://7u2ho6.com1.z0.glb.clouddn.com/site-avatar.png
+avatar: https://roggewei.github.io/assets/img/me.png
 favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
 
 # disqus config
